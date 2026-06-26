@@ -1,0 +1,37 @@
+{
+  "project_name": "منصة تعليمية لتعليم اللغات مع امتحانات تفاعلية",
+  "project_type": "language_learning_platform",
+  "color_palette": "blue-500 and orange-300",
+  "modules": [
+    "courses",
+    "students",
+    "instructors"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_courses",
+    "course_details",
+    "student_profile",
+    "instructor_profile"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register"
+    ],
+    "user": [
+      "list_courses",
+      "course_details",
+      "student_profile"
+    ],
+    "admin": [
+      "list_courses",
+      "course_details",
+      "student_profile",
+      "instructor_profile"
+    ]
+  }
+}
